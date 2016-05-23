@@ -9,36 +9,7 @@
       <li id="item"><a href="/About.html" id="menu">About Us</a></li>
       <li id="item"><a href="/Contact.html" id="menu">Contact Us</a></li>
       <li id="item"><a href="/News.html" id="menu">News</a></li>
-            <li id="item"><a><SCRIPT>
-			function passWord() {
-			var testV = 1;
-			var pass1 = prompt('Please Enter Your Password',' ');
-			while (testV < 3) {
-			if (!pass1) 
-			history.go(-1);
-			if (pass1.toLowerCase() == "letmein") {
-			window.open('www.banthebag.info/Members.html');
-			break;
-			} 
-			testV+=1;
-			var pass1 = 
-			prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-			}
-			if (pass1.toLowerCase()!="password" & testV ==3) 
-			history.go(-1);
-			return " ";
-			} 
-			</SCRIPT>
-
-			<div id="member_button">			
-			<FORM>
-			
-			<input type="button" value="Member Area" onClick="passWord()">
-			
-			</FORM>
-			</div>
-			</a>
-		</li>
+      <li id="item"><a href="/Login.html" id="menu">Member Area</a></li>
 
     </b></ul>
 <div style="margin-left:25%;padding:1px 16px;margin-bottom:15px;">

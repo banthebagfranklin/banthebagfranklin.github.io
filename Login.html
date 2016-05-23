@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<title>Ban The Bag - Franklin, MA</title>
+<link rel="stylesheet" type="text/css" href="banthebag.css">
+
+
+<script type="text/javascript">
+// PASSWORD PROTECTION SCRIPT
+
+function TheLogin() {
+
+var password = 'letmein';
+
+if (this.document.login.pass.value == password) {
+  top.location.href="Member.html";
+}
+else {
+  window.alert("Incorrect password, please try again.");
+  }
+}
+
+</script>
+
+</head>
+<body>
+
+
+    <ul id="nav"><b>
+      <li id="item"><a href="/index.html" id="menu"><color="white">Home</a></li>
+      <li id="item"><a href="/About.html" id="menu">About Us</a></li>
+      <li id="item"><a href="/Contact.html" id="menu">Contact Us</a></li>
+      <li id="item"><a href="/News.html" id="menu">News</a></li>
+      <li id="item"><a href="/Members.html" id="menu">Member Area</a></li>
+    </b></ul>
+
+<div style="margin-left:25%;padding:1px 16px;margin-bottom:15px;">
+<br>
+<div id="message"><b>Ban The Bag - Franklin, MA</b></div>
+<br><br>
+
+<div id="message">
+Enter your password:<br>
+<form name="login" style="margin: 5px 0px 0px 0px;">
+<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" style="width: 130px;"><br>
+<input type="button" value="Click to Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+</form>
+</div>
+
+
+</div>
+</body>
