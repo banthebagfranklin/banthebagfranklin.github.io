@@ -117,3 +117,16 @@ center {
 #petition {
     border-radius: 10px;
 }
+input{
+    border-width: 0px;
+    background-color: transparent;
+    color: #fff;
+    font-size:22px;
+    font-weight: bold; 
+}
+center {
+    height: auto;
+}
+
+
+
