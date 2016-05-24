@@ -16,7 +16,7 @@ footer {
 }
 p {
  font-family: helvetica;
- color: #008748;
+ color: #fff;
  text-align: center;
  font-size: 22px;
  }
@@ -93,6 +93,7 @@ center {
     border-radius: 20px;
     width: auto;
     font-size: 28px;
+    padding: 3px;
 }
 #bar {
     padding: 10px;
