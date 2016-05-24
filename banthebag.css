@@ -84,7 +84,7 @@ a:active {
   }
 b {
     color: #ffffff;
-}  
+}
 center {
     padding: 10%;
 }
@@ -107,7 +107,7 @@ center {
     width: 100%;
     color: white;
     text-align: center;
-} 
+}
 #bio {
     border-color: white;
     border-width: 10px;
@@ -118,4 +118,3 @@ center {
 #petition {
     border-radius: 10px;
 }
-
